@@ -1,0 +1,16 @@
+article {
+  ul {
+    @extend %default-ul;
+  }
+
+  ol {
+    li {
+      margin: 0;
+    }
+    @extend %default-ol;
+  }
+
+  input[type=checkbox] {
+    padding: 13px, 0;
+  }
+}

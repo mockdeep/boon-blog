@@ -10,7 +10,7 @@ activate :blog do |blog|
 
   # blog.permalink = '{year}/{month}/{day}/{title}.html'
   # Matcher for blog source files
-  # blog.sources = '{year}-{month}-{day}-{title}.html'
+  blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
   # blog.taglink = 'tags/{tag}.html'
   # blog.layout = 'layout'
   # blog.summary_separator = /(READMORE)/
@@ -28,6 +28,22 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = 'page/{num}'
 end
+
+activate :syntax, line_numbers: true
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true,
+               smartypants: true,
+               space_after_headers: true,
+               no_intra_emphasis: true,
+               tables: true,
+               autolink: true,
+               disable_indented_code_blocks: true,
+               strikethrough: true,
+               lax_spacing: true,
+               superscript: true,
+               underline: true,
+               highlight: true,
+               quote: true
 
 page '/feed.xml', layout: false
 
@@ -56,6 +72,7 @@ page '/feed.xml', layout: false
 # with_layout :admin do
 #   page '/admin/*'
 # end
+page '/articles/*', layout: :article_layout
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy '/this-page-has-no-template.html', '/template-file.html', locals: {

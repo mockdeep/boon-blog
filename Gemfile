@@ -4,7 +4,10 @@ source 'http://rubygems.org'
 
 gem 'middleman'
 gem 'middleman-blog'
+gem 'middleman-syntax'
+gem 'nokogiri'
 gem 'rack-contrib'
+gem 'redcarpet'
 
 gem 'builder' # For feed.xml.builder
 
