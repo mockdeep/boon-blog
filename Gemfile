@@ -2,10 +2,13 @@
 # the following line to use 'https'
 source 'http://rubygems.org'
 
+ruby '2.1.2'
+
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-syntax'
 gem 'nokogiri'
+gem 'puma'
 gem 'rack-contrib'
 gem 'redcarpet'
 
