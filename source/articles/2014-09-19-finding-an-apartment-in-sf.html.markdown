@@ -2,7 +2,6 @@
 title: Finding an Apartment in San Francisco
 date: 2014-09-19
 tags: personal
-published: false
 authors: Robert Fletcher
 ---
 
