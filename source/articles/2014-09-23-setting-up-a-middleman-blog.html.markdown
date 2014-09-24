@@ -1,7 +1,7 @@
 ---
 title: Setting up a Middleman Blog
 date: 2014-09-23
-tags: technical
+tags: technical, blogging, middleman
 authors: Robert Fletcher
 ---
 
