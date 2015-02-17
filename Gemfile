@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 ruby '2.1.5'
 
+gem 'font-awesome-middleman'
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-disqus'

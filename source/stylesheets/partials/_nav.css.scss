@@ -2,6 +2,12 @@ nav {
   border-bottom: 1px solid $base-border-color;
   margin: em(30) 0;
 
+  .fa-rss {
+    margin-top: 12px;
+    margin-right: 3px;
+    float: right;
+  }
+
   ul {
     display: inline-block;
     margin-bottom: em(10);

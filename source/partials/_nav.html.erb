@@ -1,7 +1,10 @@
 <nav>
-<ul>
-  <li>
-    <%= link_to 'Boon Blog', '/', :class => 'blog-title' %>
-  </li>
-</ul>
+  <%= link_to 'https://blog.boon.gl/feed.xml' do
+    "<i class='fa fa-rss' title='rss'></i>"
+  end %>
+  <ul>
+    <li>
+      <%= link_to 'Boon Blog', '/', :class => 'blog-title' %>
+    </li>
+  </ul>
 </nav>
