@@ -8,6 +8,7 @@ activate :disqus do |disqus|
   disqus.shortname = 'boonblog' if ENV['RACK_ENV'] == 'production'
 end
 
+activate :asset_hash
 activate :syntax, line_numbers: true
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true,
