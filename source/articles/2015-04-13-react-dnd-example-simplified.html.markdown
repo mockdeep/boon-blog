@@ -15,9 +15,9 @@ as having a good deal of what might be considered more "proper" structuring for
 a React app, so it was challenging for me to parse out what were the critical
 bits for React DnD to function. To further my own understanding, I stripped out
 all of the ES6 syntax and some of the non-essential code to getting the most
-basic drag and drop implementation up and running. Check it out below, as well
-as the [original example][dnd-original-example] for reference. This was built
-in the context of a rails app with [react-rails][react-rails] and
+basic drag and drop implementation up and running. READMORE Check it out below,
+as well as the [original example][dnd-original-example] for reference. This was
+built in the context of a rails app with [react-rails][react-rails] and
 [rails-assets][rails-assets]-react-dnd, though I think the code should work
 readily outside of the rails context.
 
