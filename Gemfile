@@ -1,3 +1,12 @@
+#   _                         _     _             
+#  | |                       | |   | |            
+#  | |__   ___   ___  _ __   | |__ | | ___   __ _ 
+#  | '_ \ / _ \ / _ \| '_ \  | '_ \| |/ _ \ / _` |
+#  | |_) | (_) | (_) | | | | | |_) | | (_) | (_| |
+#  |_.__/ \___/ \___/|_| |_| |_.__/|_|\___/ \__, |
+#                                            __/ |
+#                                           |___/ 
+#
 # If you have OpenSSL installed, we recommend updating
 # the following line to use 'https'
 source 'http://rubygems.org'
