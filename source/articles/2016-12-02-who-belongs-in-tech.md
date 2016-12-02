@@ -11,9 +11,9 @@ disqus_url: http://blog.boon.gl/2016/12/02/who-belongs-in-tech
 I finished reading [this blog][saron-post] post by Saron Yitbarek and I had so
 many things I wanted to say that I decided to write it up in a post of my own.
 You will probably want to check hers out so that you know what I am responding
-to here. READMORE As a disclaimer, I do my best to respond to what she is
+to here. As a disclaimer, I do my best to respond to what she is
 saying, but a lot of this is just stuff I like to say, so might be
-tangential...
+tangential... READMORE
 
 First off, in commiseration
 ---------------------------
@@ -64,8 +64,8 @@ democracy, is messy. You will hear me use the phrase "the right way" a lot, but
 the truth is, there is no one, unambiguous "right way". There is always some
 ambiguity to be dealt with. There are a lot of times no amount of turning a
 problem over in your head is going to help you understand it as thoroughly as
-you might want. Sometimes getting something under load is the most effective
-way to understand it. A lot of times we don't know what the best solution to a
+you might want. Sometimes getting something deployed is the most effective way
+to understand it. A lot of times we don't know what the best solution to a
 problem is, so we build it the best we know how and look back on it later with
 clearer eyes, either with feedback from customers, or from ourselves as
 engineers having to deal with the consequences of a particular coding decision.
@@ -75,7 +75,6 @@ admission that while we spent some time thinking about it, we were not able to
 come up with an optimal approach, so we settled on this for now. (It's also a
 great way of handling disagreement, since no decision has to be final.) You
 should, of course, never deploy anything that puts your users at risk.
-
 
 We keep learning. Looking back on code I wrote six months ago, I want to weep.
 Legacy code builds up so quickly, even when you think you're doing things well.
@@ -111,13 +110,15 @@ It gets better
 Doing things the "right" way is a privilege that comes with experience. On one
 hand, that might seem pretty messed up and frustrating, but on the other it
 makes a lot of sense. If you can show that you are good at getting the job
-done, people are more likely to trust your judgement. If you are only a couple
-years out of bootcamp, what authority do you have to say what is the most
-effective way of doing something? Even so, there are still a lot of companies
-out there that value doing things well in addition to quickly. Some higher
-profile consultancies, in particular. You might also look for companies that
-are more in a "maintenance" phase, where they have got a solid product and just
-want to keep it stable and performant.
+done, people are more likely to trust your judgement. Authority comes with
+experience and expertise–and likely someone relatively early in their career
+doesn’t have either in a deep way.
+
+There are nonetheless a lot of companies out there that value doing things well
+in addition to quickly. [Ours][chalk], for example, as well as some higher
+profile consultancies. You might also look for companies that are more in a
+"maintenance" phase, where they have got a solid product and just want to keep
+it stable and performant.
 
 Hang in there. Crafting high quality software is a worthwhile pursuit, and
 becomes its own reward. It may not be appreciated by the masses, but that is
