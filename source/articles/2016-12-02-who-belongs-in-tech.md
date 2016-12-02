@@ -44,15 +44,16 @@ solidly the lower levels are reinforced, the safer you will be as you go along.
 While people might logically understand these things, they are not going to
 fully integrate it unless they can viscerally *feel* it. I have had contracting
 gigs that have lasted only a couple of hours because I thought it was important
-to have working tests and the project owner disagreed. I have been with our
-current company since the very early stages more than four years ago. Near the
-beginning, our CTO and I would get into angry arguments about code quality and
-testing. Because of my experience and the value I provided, I was able to push
-it and get our test coverage up to 100%, where it has more or less stayed
-since. Now there is no one on our team who will advocate more vociferously than
-her for testing and doing things the right way, since now she can get a good
-night's rest instead of burning the candle at both ends the way she was before,
-up responding to late night phone calls and fixing errors in production.
+to have working tests and the project owner disagreed. I have been with [our
+current company][chalk] since the very early stages more than four years ago.
+Near the beginning, our CTO and I would get into angry arguments about code
+quality and testing. Because of my experience and the value I provided, I was
+able to push it and get our test coverage up to 100%, where it has more or less
+stayed since. Now there is no one on our team who will advocate more
+vociferously than her for testing and doing things the right way, since now she
+can get a good night's rest instead of burning the candle at both ends the way
+she was before, up responding to late night phone calls and fixing errors in
+production.
 
 Here's the "but"
 ----------------
@@ -124,3 +125,4 @@ true for many things of actual value.
 
 [saron-post]: https://medium.com/startup-grind/i-dont-belong-in-tech-3d73d8fd6f34#.2sy7sm31m
 [the-burrow]: http://www.themeparktourist.com/sites/default/files/u10837/Character_Article/Things_Learned/Universal/Theburrowlongshot.jpg
+[chalk]: https://www.chalkschools.com/
