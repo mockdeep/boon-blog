@@ -13,6 +13,7 @@ gem 'nokogiri'
 gem 'puma'
 gem 'rack-contrib'
 gem 'redcarpet'
+gem 'rake'
 
 gem 'builder' # For feed.xml.builder
 
