@@ -15,7 +15,7 @@ form, since generally you will also want that data to be cleared from the store
 when the form is unmounted. My `ConnectWithScratch` higher order component adds
 lifecycle hooks on component mount and unmount to create and delete scratch
 space for the component. As I've been using it, though, I've been discovering
-some interesting edge cases that.
+some interesting edge cases.
 
 READMORE
 
@@ -27,7 +27,7 @@ And it calls `deleteScratch` when the component unmounts. In one case I'm using
 my scratch component for an edit task form, where the scratch key might be
 something like `editTask-114`, where `114` is the task id. When I introduced
 this edit task form on another page, I ran into an interesting issue. The one
-one the new page has the same key, but when navigating from one page to the
+on the new page has the same key, but when navigating from one page to the
 other, it tries to create the scratch for the new page before the old one has
 been removed. Console logging out revealed the following:
 
