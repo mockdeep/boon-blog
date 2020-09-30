@@ -1,5 +1,7 @@
 #main {
-  @include outer-container;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ol {
@@ -21,9 +23,11 @@ ol {
 }
 
 .large-column {
-  @include span-columns(8 of 12);
+  float: left;
+  width: 66%;
 }
 
 .small-column {
-  @include span-columns(4 of 12);
+  float: left;
+  width: 34%;
 }

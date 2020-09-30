@@ -19,6 +19,5 @@ gem 'builder' # For feed.xml.builder
 
 gem 'bitters'
 gem 'bourbon'
-gem 'neat'
 
 gem 'middleman-livereload'
