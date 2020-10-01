@@ -7,10 +7,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    bitters (2.0.4)
-      thor (~> 1.0)
-    bourbon (7.0.0)
-      thor (~> 1.0)
     builder (3.2.4)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -42,8 +38,6 @@ GEM
     eventmachine (1.2.7)
     execjs (2.7.0)
     ffi (1.13.1)
-    font-awesome-middleman (4.5.0)
-      middleman-core (~> 3.0)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -156,10 +150,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitters
-  bourbon
   builder
-  font-awesome-middleman
   middleman
   middleman-blog
   middleman-disqus
