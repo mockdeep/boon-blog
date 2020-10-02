@@ -49,7 +49,7 @@ And you should be set. Here's what my article layout looks like:
 ```erb
 <% wrap_layout :layout do %>
   <h3><%= link_to current_article.title, current_article %></h3>
-  <h5><%= current_article.date.strftime('%b %e') %></h5>
+  <h5><%= current_article.date.strftime('%b %d, %Y') %></h5>
   <article>
     <%= yield %>
   </article>
