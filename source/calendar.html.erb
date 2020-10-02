@@ -4,7 +4,7 @@ pageable: true
 <h1>Archive for
   <% case page_type
      when 'day' %>
-    <%= Date.new(year, month, day).strftime('%b %e %Y') %>
+    <%= Date.new(year, month, day).strftime('%b %d, %Y') %>
   <% when 'month' %>
     <%= Date.new(year, month, 1).strftime('%b %Y') %>
   <% when 'year' %>
@@ -22,7 +22,7 @@ pageable: true
 
 <ul>
   <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %d, %Y') %></span></li>
   <% end %>
 </ul>
 
