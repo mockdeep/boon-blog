@@ -1,4 +1,5 @@
 activate :blog do |blog|
+  blog.paginate = true
   blog.sources = 'articles/{year}-{month}-{day}-{title}.html'
   blog.tag_template = 'tag.html'
   blog.calendar_template = 'calendar.html'
