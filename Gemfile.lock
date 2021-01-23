@@ -14,7 +14,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.8)
     contracts (0.13.0)
     dotenv (2.7.6)
     em-websocket (0.5.2)
@@ -118,7 +118,7 @@ GEM
       ffi (~> 1.9)
     servolux (0.13.0)
     temple (0.8.2)
-    thor (1.0.1)
+    thor (1.1.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
     tzinfo (1.2.9)
