@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    backports (3.20.1)
+    backports (3.20.2)
     builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
@@ -99,7 +99,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.20.1)
     public_suffix (4.0.6)
-    puma (5.1.1)
+    puma (5.2.0)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
