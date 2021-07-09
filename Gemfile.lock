@@ -149,7 +149,7 @@ DEPENDENCIES
   redcarpet
 
 RUBY VERSION
-   ruby 2.7.3
+   ruby 3.0.2
 
 BUNDLED WITH
    2.1.4
