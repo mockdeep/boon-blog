@@ -3,9 +3,6 @@ title: Who Belongs in Tech
 date: 2016-12-02
 tags: tech
 authors: Robert Fletcher
-disqus_title: Who Belongs in Tech
-disqus_identifier: 2016-12-02-who-belongs-in-tech
-disqus_url: http://blog.boon.gl/2016/12/02/who-belongs-in-tech
 ---
 
 I finished reading [this blog][saron-post] post by Saron Yitbarek and I had so

@@ -5,10 +5,6 @@ activate :blog do |blog|
   blog.calendar_template = 'calendar.html'
 end
 
-activate :disqus do |disqus|
-  disqus.shortname = 'boonblog' if ENV['RACK_ENV'] == 'production'
-end
-
 activate :asset_hash
 activate :syntax, line_numbers: true
 set :markdown_engine, :redcarpet

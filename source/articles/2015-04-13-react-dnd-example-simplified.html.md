@@ -3,9 +3,6 @@ title: React DnD Example Simplified
 date: 2015-04-13
 tags: technical, react
 authors: Robert Fletcher
-disqus_title: React DnD Example Simplified
-disqus_identifier: 2015-04-13-react-dnd-example-simplified
-disqus_url: http://blog.boon.gl/2015/04/13/react-dnd-example-simplified
 ---
 
 I recently started playing around with [React DnD][react-dnd] to implement some

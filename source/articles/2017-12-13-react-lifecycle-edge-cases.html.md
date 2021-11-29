@@ -3,9 +3,6 @@ title: React Lifecycle Edge Cases
 date: 2017-12-13
 tags: technical, react, redux
 authors: Robert Fletcher
-disqus_title: React Lifecycle Edge Cases
-disqus_identifier: 2017-12-13-react-lifecycle-edge-cases
-disqus_url: https://blog.boon.gl/2017/12/13/react-lifecycle-edge-cases.html
 ---
 
 I have a "scratch" wrapper I wrote for React as an alternative to `setState`

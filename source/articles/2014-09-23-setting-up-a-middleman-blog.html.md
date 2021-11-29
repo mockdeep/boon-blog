@@ -3,9 +3,6 @@ title: Setting up a Middleman Blog
 date: 2014-09-23
 tags: technical, blogging, middleman
 authors: Robert Fletcher
-disqus_title: Setting up a Middleman Blog
-disqus_identifier: 2014-09-23-setting-up-a-middleman-blog.html
-disqus_url: http://blog.boon.gl/2014/09/23/setting-up-a-middleman-blog.html
 ---
 
 Second blog post seems like a good time to write about my experience setting up

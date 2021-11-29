@@ -3,9 +3,6 @@ title: Routes as State in React
 date: 2017-06-29
 tags: technical, react, redux
 authors: Robert Fletcher
-disqus_title: Routes as State in React
-disqus_identifier: 2017-06-29-routes-as-state-in-react.md
-disqus_url: http://blog.boon.gl/2017/06/29/routes-as-state-in-react.md
 ---
 
 I've been using [React Router][react-router] for a while now in a project and

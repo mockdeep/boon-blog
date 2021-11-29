@@ -3,9 +3,6 @@ title: React Elm Wrapper
 date: 2017-11-28
 tags: technical, react, elm
 authors: Robert Fletcher
-disqus_title: React Elm Wrapper
-disqus_identifier: 2017-11-28-react-elm-wrapper.md
-disqus_url: http://blog.boon.gl/2017/06/29/react-elm-wrapper.md
 ---
 
 I've recently been spending a lot of time scratching my head regarding
