@@ -6,7 +6,6 @@ ruby '2.7.5'
 
 gem 'middleman'
 gem 'middleman-blog'
-gem 'middleman-disqus'
 gem 'middleman-syntax'
 gem 'nokogiri'
 gem 'puma'

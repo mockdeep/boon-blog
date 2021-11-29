@@ -79,8 +79,6 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
-    middleman-disqus (1.2.0)
-      middleman-core (~> 4.0)
     middleman-livereload (3.4.7)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -139,7 +137,6 @@ DEPENDENCIES
   builder
   middleman
   middleman-blog
-  middleman-disqus
   middleman-livereload
   middleman-syntax
   nokogiri

@@ -3,9 +3,6 @@ title: Finding an Apartment in San Francisco
 date: 2014-09-19
 tags: personal, San Francisco
 authors: Robert Fletcher
-disqus_title: Finding an Apartment in San Francisco
-disqus_identifier: 2014-09-19-finding-an-apartment-in-sf.html.markdown
-disqus_url: http://blog.boon.gl/2014/09/19/finding-an-apartment-in-sf.html
 ---
 
 I recently settled into a new apartment after a grueling two month search, so I
