@@ -26,7 +26,7 @@ GEM
     execjs (2.8.1)
     fast_blank (1.0.1)
     fastimage (2.2.6)
-    ffi (1.15.4)
+    ffi (1.15.5)
     haml (5.2.2)
       temple (>= 0.8.0)
       tilt
@@ -89,7 +89,7 @@ GEM
     mini_portile2 (2.7.1)
     minitest (5.15.0)
     nio4r (2.5.8)
-    nokogiri (1.13.0)
+    nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
     padrino-helpers (0.15.1)
