@@ -109,7 +109,7 @@ GEM
     rack-livereload (0.3.17)
       rack
     rake (13.0.6)
-    rb-fsevent (0.11.0)
+    rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
