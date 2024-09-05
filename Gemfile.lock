@@ -147,7 +147,7 @@ DEPENDENCIES
   redcarpet
 
 RUBY VERSION
-   ruby 3.0.7
+   ruby 3.3.5
 
 BUNDLED WITH
    2.2.26
