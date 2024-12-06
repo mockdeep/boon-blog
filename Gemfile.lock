@@ -86,9 +86,9 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 3.2)
     mini_portile2 (2.8.8)
-    minitest (5.25.2)
+    minitest (5.25.4)
     nio4r (2.7.4)
-    nokogiri (1.16.7)
+    nokogiri (1.16.8)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     padrino-helpers (0.15.3)
@@ -126,7 +126,7 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
-    webrick (1.9.0)
+    webrick (1.9.1)
 
 PLATFORMS
   ruby
