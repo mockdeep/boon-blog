@@ -4,7 +4,7 @@ source 'http://rubygems.org'
 
 ruby '3.0.7'
 
-gem 'haml', '~> 5.2'
+gem 'haml', '~> 6.4'
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-syntax'
