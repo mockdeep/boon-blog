@@ -2,7 +2,7 @@
 # the following line to use 'https'
 source 'http://rubygems.org'
 
-ruby '3.2.11'
+ruby '3.3.11'
 
 # activesupport 7.0 references Logger without requiring it; concurrent-ruby
 # 1.3.5 dropped the incidental require that used to load it. Must be required
