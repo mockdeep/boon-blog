@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Ruby version comes from .tool-versions -- the single source of truth,
+      # shared with local mise. setup-ruby downloads a prebuilt in seconds and
+      # caches gems; the bundler version is taken from Gemfile.lock's
+      # BUNDLED WITH.
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .tool-versions
+          bundler-cache: true
+
+      - name: Build test (gem compatibility + output)
+        run: bundle exec ruby test/build_test.rb
+
+      - name: Server smoke test
+        run: bundle exec ruby test/server_test.rb
+
+      - name: Production serving smoke test (puma + config.ru)
+        run: bundle exec ruby test/production_test.rb
