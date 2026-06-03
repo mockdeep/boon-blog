@@ -97,9 +97,6 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.6.1)
-    middleman-syntax (3.6.1)
-      middleman-core (>= 3.2)
-      rouge (~> 3.2)
     mini_portile2 (2.8.9)
     minitest (6.0.6)
       drb (~> 2.0)
@@ -134,11 +131,13 @@ GEM
       ffi (~> 1.0)
     redcarpet (3.6.1)
     rexml (3.4.4)
-    rouge (3.30.0)
+    rouge (5.0.0)
+      strscan (~> 3.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     securerandom (0.4.1)
     servolux (0.13.0)
+    strscan (3.1.8)
     temple (0.10.4)
     thor (1.5.0)
     tilt (2.7.0)
@@ -164,16 +163,16 @@ DEPENDENCIES
   middleman
   middleman-blog
   middleman-livereload
-  middleman-syntax
   mutex_m
   nokogiri
   puma
   rack-contrib
   rake
   redcarpet
+  rouge
 
 RUBY VERSION
-   ruby 3.4.9p82
+   ruby 4.0.5p0
 
 BUNDLED WITH
    2.5.23
