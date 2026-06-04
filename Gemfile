@@ -1,16 +1,18 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use 'https'
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 ruby '4.0.5'
 
-gem 'middleman'
-gem 'middleman-blog'
-gem 'rouge'
-gem 'nokogiri'
+# Static site generator (replaces Middleman).
+gem 'bridgetown', '~> 2.2.0'
+gem 'bridgetown-feed' # generates the Atom feed.xml
+
+# Production serving: puma boots config.ru, which serves the built static
+# site (output/) via Rack::TryStatic. This is the path Heroku uses.
 gem 'puma'
-gem 'rack-contrib' # allows puma to server static files
-gem 'redcarpet'
+gem 'rack-contrib' # provides Rack::TryStatic
+
 gem 'rake'
 
-gem 'builder' # For feed.xml.builder
+group :test do
+  gem 'minitest'
+end

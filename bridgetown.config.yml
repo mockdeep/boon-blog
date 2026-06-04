@@ -1,0 +1,11 @@
+# Most configuration lives in config/initializers.rb. This file holds the
+# front-matter defaults, which are simplest to express as YAML.
+
+defaults:
+  # Posts are plain Markdown. Disable template-engine (ERB) processing of their
+  # content so code samples containing `<% %>`, `{{ }}`, etc. render literally.
+  - scope:
+      path: ""
+      collection: posts
+    values:
+      template_engine: none

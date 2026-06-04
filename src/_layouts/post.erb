@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<h3><a href="<%= resource.relative_url %>"><%= resource.data.title %></a></h3>
+<h5><%= resource.data.date.strftime('%b %d, %Y') %></h5>
+<article>
+  <%= yield %>
+</article>

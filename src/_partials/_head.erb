@@ -1,0 +1,11 @@
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+  rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="<%= asset_path :css %>" />
+<script src="<%= asset_path :js %>" defer></script>
+<% article_title = page_data.layout.to_s == "post" ? page_data.title : nil %>
+<title><%= metadata.title %><%= " - #{article_title}" if article_title %></title>
+<%= feed_meta %>
+<%= live_reload_dev_js %>

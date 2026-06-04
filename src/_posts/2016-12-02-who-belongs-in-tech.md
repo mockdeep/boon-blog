@@ -1,7 +1,9 @@
 ---
+layout: post
 title: Who Belongs in Tech
 date: 2016-12-02
-tags: tech
+tags:
+- tech
 authors: Robert Fletcher
 ---
 

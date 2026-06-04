@@ -1,0 +1,10 @@
+# Site-wide metadata. Used in the page <head>, the Atom feed (bridgetown-feed),
+# and anywhere templates reference `site.metadata`.
+
+title: Boon Blog
+tagline: A blog about technology, React, and life in San Francisco.
+author: Robert Fletcher
+email: robert@informedk12.com
+description: >-
+  Boon Blog — writing on technology, React, Elm, and the occasional aside
+  about life in San Francisco.

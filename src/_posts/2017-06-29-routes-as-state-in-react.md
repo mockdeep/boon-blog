@@ -1,7 +1,11 @@
 ---
+layout: post
 title: Routes as State in React
 date: 2017-06-29
-tags: technical, react, redux
+tags:
+- technical
+- react
+- redux
 authors: Robert Fletcher
 ---
 

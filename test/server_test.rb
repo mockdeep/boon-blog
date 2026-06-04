@@ -1,22 +1,32 @@
-# End-to-end smoke test of the running server.
+# End-to-end smoke test of the Bridgetown dev preview server.
 #
-# Boots the real `middleman server` (verifying the serving gem stack -- puma,
-# rack, celluloid, listen, livereload -- loads and runs), hits it over HTTP,
-# then shuts it down.
+# Boots the real `bridgetown start` (verifying the dev serving stack -- puma,
+# rack, roda, listen, plus the esbuild frontend watcher -- loads and runs),
+# hits it over HTTP, then shuts it down.
+#
+# We pre-build once so the server has content to serve immediately; `bridgetown
+# start` then takes over watching/rebuilding output/.
 #
 #   bundle exec ruby test/server_test.rb
 #
 require 'minitest/autorun'
 require 'net/http'
 
+# Ensure output/ exists before the server boots.
+PREBUILD_OK = system('pnpm run esbuild && bundle exec bridgetown build',
+                     out: File::NULL, err: File::NULL)
+
 class ServerTest < Minitest::Test
   PORT = 4568
-  LOG  = '/tmp/mm_test_server.log'
+  LOG  = '/tmp/bt_test_server.log'
 
   def setup
-    # Own process group so we can reliably kill puma and any children.
+    assert PREBUILD_OK, 'prebuild failed; cannot test the dev server'
+
+    # Own process group so we can reliably kill the server and its children
+    # (the esbuild watcher in particular).
     @pid = Process.spawn(
-      'bundle', 'exec', 'middleman', 'server', '-p', PORT.to_s,
+      'bundle', 'exec', 'bridgetown', 'start', '--port', PORT.to_s,
       out: LOG, err: LOG, pgroup: true
     )
     wait_for_server
@@ -44,14 +54,16 @@ class ServerTest < Minitest::Test
   end
 
   def wait_for_server
-    30.times do
+    45.times do
       begin
-        return get('/')
-      rescue Errno::ECONNREFUSED, EOFError
-        sleep 1
+        res = get('/')
+        return res if res.code == '200'
+      rescue Errno::ECONNREFUSED, EOFError, Net::ReadTimeout
+        # not up yet
       end
+      sleep 1
     end
     log = File.exist?(LOG) ? File.read(LOG) : '(no log)'
-    flunk "middleman server did not come up on port #{PORT}:\n#{log}"
+    flunk "bridgetown start did not serve on port #{PORT}:\n#{log}"
   end
 end

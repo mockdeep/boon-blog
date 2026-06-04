@@ -1,7 +1,10 @@
 ---
+layout: post
 title: Finding an Apartment in San Francisco
 date: 2014-09-19
-tags: personal, San Francisco
+tags:
+- personal
+- San Francisco
 authors: Robert Fletcher
 ---
 
