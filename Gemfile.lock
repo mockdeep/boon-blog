@@ -28,11 +28,7 @@ GEM
     contracts (0.17.3)
     dotenv (3.2.0)
     drb (2.2.3)
-    em-websocket (0.5.3)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0)
     erubi (1.13.1)
-    eventmachine (1.2.7)
     execjs (2.10.1)
     fast_blank (1.0.1)
     fastimage (2.4.1)
@@ -44,7 +40,6 @@ GEM
       concurrent-ruby (~> 1.0)
     hashie (5.1.0)
       logger
-    http_parser.rb (0.8.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     json (2.19.8)
@@ -93,15 +88,10 @@ GEM
       toml
       uglifier (>= 3, < 5)
       webrick
-    middleman-livereload (3.5.0)
-      em-websocket (~> 0.5.1)
-      middleman-core (>= 3.3)
-      rack-livereload (~> 0.6.1)
     mini_portile2 (2.8.9)
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
-    mutex_m (0.3.0)
     nio4r (2.7.4)
     nokogiri (1.19.3)
       mini_portile2 (~> 2.8.2)
@@ -121,8 +111,6 @@ GEM
     rack (3.1.21)
     rack-contrib (2.5.0)
       rack (< 4)
-    rack-livereload (0.6.1)
-      rack (>= 3.0, < 3.2)
     rackup (2.3.1)
       rack (>= 3)
     rake (13.3.0)
@@ -154,16 +142,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  base64
-  bigdecimal
   builder
-  drb
-  haml (~> 5.2)
-  logger
   middleman
   middleman-blog
-  middleman-livereload
-  mutex_m
   nokogiri
   puma
   rack-contrib
