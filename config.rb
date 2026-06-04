@@ -49,7 +49,3 @@ set :build_dir, 'tmp'
 
 configure :build do
 end
-
-configure :development do
-  activate :livereload
-end
