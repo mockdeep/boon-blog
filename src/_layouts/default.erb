@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="<%= site.locale %>">
+  <head>
+    <%= render "head", metadata: site.metadata, page_data: data %>
+  </head>
+  <body>
+    <div id="main" role="main">
+      <%= render "nav" %>
+      <%= yield %>
+      <%= render "footer" %>
+    </div>
+  </body>
+</html>

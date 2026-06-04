@@ -21,10 +21,23 @@ jobs:
           ruby-version: .tool-versions
           bundler-cache: true
 
-      - name: Build test (gem compatibility + output)
+      # Node + pnpm are required for the esbuild frontend bundle that every test
+      # builds. Matches the Heroku nodejs buildpack (package.json engines: node
+      # >=22, packageManager: pnpm).
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install frontend dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build test (gem + node compatibility + output)
         run: bundle exec ruby test/build_test.rb
 
-      - name: Server smoke test
+      - name: Dev server smoke test (bridgetown start)
         run: bundle exec ruby test/server_test.rb
 
       - name: Production serving smoke test (puma + config.ru)

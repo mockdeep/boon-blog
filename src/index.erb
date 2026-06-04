@@ -1,0 +1,27 @@
+---
+layout: default
+pagination:
+  collection: posts
+  per_page: 10
+---
+<% if paginator.total_pages > 1 %>
+  <p>Page <%= paginator.page %> of <%= paginator.total_pages %></p>
+
+  <% if paginator.previous_page %>
+    <p><a href="<%= paginator.previous_page_path %>">Previous page</a></p>
+  <% end %>
+<% end %>
+
+<ul>
+  <% paginator.resources.each do |article| %>
+    <li>
+      <h3><a href="<%= article.relative_url %>"><%= article.data.title %></a></h3>
+      <h5><%= article.data.date.strftime('%b %d, %Y') %></h5>
+      <article><%= article.data.summary %></article>
+    </li>
+  <% end %>
+</ul>
+
+<% if paginator.next_page %>
+  <p><a href="<%= paginator.next_page_path %>">Next page</a></p>
+<% end %>

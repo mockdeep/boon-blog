@@ -1,7 +1,11 @@
 ---
+layout: post
 title: React Elm Wrapper
 date: 2017-11-28
-tags: technical, react, elm
+tags:
+- technical
+- react
+- elm
 authors: Robert Fletcher
 ---
 

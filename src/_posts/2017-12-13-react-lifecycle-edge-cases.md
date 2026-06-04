@@ -1,7 +1,11 @@
 ---
+layout: post
 title: React Lifecycle Edge Cases
 date: 2017-12-13
-tags: technical, react, redux
+tags:
+- technical
+- react
+- redux
 authors: Robert Fletcher
 ---
 

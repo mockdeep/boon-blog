@@ -1,0 +1,30 @@
+<footer>
+  <ul class="large-column">
+    <li><h5 class="heading">Recent Articles</h5></li>
+    <li>
+      <ol>
+        <% collections.posts.resources.first(10).each do |article| %>
+          <li>
+            <a href="<%= article.relative_url %>"><%= article.data.title %></a>
+            <span><%= article.data.date.strftime('%b %d, %Y') %></span>
+          </li>
+        <% end %>
+      </ol>
+    </li>
+  </ul>
+
+  <ul class="small-column">
+    <li><h5 class="heading">Tags</h5></li>
+    <li>
+      <ol>
+        <% tag_counts = Hash.new(0) %>
+        <% collections.posts.resources.each { |post| Array(post.data.tags).each { |tag| tag_counts[tag] += 1 } } %>
+        <% tag_counts.sort.each do |tag, count| %>
+          <li>
+            <a href="<%= relative_url "/tags/#{Bridgetown::Utils.slugify(tag)}/" %>"><%= tag %> (<%= count %>)</a>
+          </li>
+        <% end %>
+      </ol>
+    </li>
+  </ul>
+</footer>

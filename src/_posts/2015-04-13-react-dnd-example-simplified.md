@@ -1,7 +1,10 @@
 ---
+layout: post
 title: React DnD Example Simplified
 date: 2015-04-13
-tags: technical, react
+tags:
+- technical
+- react
 authors: Robert Fletcher
 ---
 
