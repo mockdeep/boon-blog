@@ -18,7 +18,7 @@ situations where the code would be cleaner or more performant if I were doing
 it in a mutative or class based way. It feels like I'm trying to awkwardly
 shoehorn functional methods into a language that really wasn't built for it.
 
-READMORE
+<!--more-->
 
 ## Enter Elm
 

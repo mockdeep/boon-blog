@@ -18,7 +18,7 @@ lifecycle hooks on component mount and unmount to create and delete scratch
 space for the component. As I've been using it, though, I've been discovering
 some interesting edge cases.
 
-READMORE
+<!--more-->
 
 So my current `ConnectWithScratch` component calls `createScratch` in
 `constructor` with a user provided `scratchKey`. (I'm not going to share the
