@@ -14,7 +14,7 @@ thought I'd share some of my experience looking for an apartment during the
 be honest, if you can put it off until a better time of year, I'd recommend it.
 Prices will be lower and the competition for the affordable places will be
 considerably less fierce.  Regardless of when you're on the hunt, though, here
-are some tips that might help you get through it a little easier. READMORE What
+are some tips that might help you get through it a little easier. <!--more--> What
 I share here is from the perspective of looking for a place to myself, but
 **much of it should still apply if you're looking for a roommate situation**.
 

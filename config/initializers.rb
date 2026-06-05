@@ -15,10 +15,11 @@ Bridgetown.configure do |config|
 
   timezone "America/Los_Angeles"
 
-  # Excerpt/summary support: articles mark the fold with `READMORE`, matching
-  # the old Middleman blog behaviour. Everything before it is the summary
-  # (see plugins/builders/summaries.rb).
-  config.excerpt_separator = "READMORE"
+  # Excerpt/summary support: articles mark the fold with an HTML `<!--more-->`
+  # comment. Everything before it is the summary (see
+  # plugins/builders/summaries.rb). Because the marker is an HTML comment it
+  # renders invisibly, so the full article body needs no special handling.
+  config.excerpt_separator = "<!--more-->"
 
   # Pagination is required for the home page and the per-tag prototype pages.
   pagination do

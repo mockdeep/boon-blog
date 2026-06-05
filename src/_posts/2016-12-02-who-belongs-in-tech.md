@@ -12,7 +12,7 @@ many things I wanted to say that I decided to write it up in a post of my own.
 You will probably want to check hers out so that you know what I am responding
 to here. As a disclaimer, I do my best to respond to what she is
 saying, but a lot of this is just stuff I like to say, so might be
-tangential... READMORE
+tangential... <!--more-->
 
 First off, in commiseration
 ---------------------------

@@ -19,7 +19,7 @@ libraries, as this is somewhat an extension of their post. I'll talk about
 setting up layouts, as well as coping with some minor styling issues I ran
 into.
 
-READMORE
+<!--more-->
 
 ## The Issue
 

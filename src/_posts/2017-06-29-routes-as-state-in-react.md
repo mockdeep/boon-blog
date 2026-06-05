@@ -20,7 +20,7 @@ head scratching and soul searching, I realized that for my purposes, the
 routing information belongs in the state, not encoded implicitly in the
 components that are rendered.
 
-READMORE
+<!--more-->
 
 ## The Lay of the Land
 
