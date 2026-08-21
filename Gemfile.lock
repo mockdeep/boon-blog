@@ -146,7 +146,7 @@ GEM
     streamlined (0.6.2)
       serbea (>= 2.1)
       zeitwerk (~> 2.5)
-    tilt (2.8.0)
+    tilt (2.9.0)
     tsort (0.2.0)
     uri (1.1.1)
     zeitwerk (2.8.3)
