@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '4.0.6'
+ruby '4.0.7'
 
 # Static site generator (replaces Middleman).
 gem 'bridgetown', '~> 2.2.0'
